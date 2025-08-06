@@ -1,0 +1,18 @@
+[package]
+name = "tracking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Eswar_addr="0xb45e2d57946bf7999eda3d1e4cb49a264e3484344bb8b304162475ce02f07a90"
+
+[dev-addresses]
+Eswar_addr="0xb45e2d57946bf7999eda3d1e4cb49a264e3484344bb8b304162475ce02f07a90"
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
